@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <header>
+            <div class="container">
+                <h1>Калькулятор</h1>
+            </div>
+        </header>
+
+        <section class="promo">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="calc">
+                        <h2>Введите выражение для расчетов</h2>
+                        <input type="text" placeholder="Выражение..." id="expres"/>
+                        <button id="calculate">Рассчитать</button>
+                        <div class="result">
+                            <div class="text">Результат</div>
+                            <div id="result">...</div>
+                        </div>
+                    </div>
+                    <div class="test">
+                        <h2>Проведите проверку тестов</h2>
+                        <button id="runTest">Запустить тест</button>
+                        <div id="test"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>

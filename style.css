@@ -1,0 +1,84 @@
+.container {
+    width: 1040px;
+    margin: 0 auto;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header h1 {
+    text-align: center;
+}
+.promo .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.calc, .test {
+    width: 500px;
+    min-height: 300px;
+    padding: 20px 20px 10px 20px;
+    margin: 10px;
+    border: solid 1px #000000;
+    border-radius: 10px;
+}
+.calc h2 {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.calc input {
+    width: 300px;
+    height: 25px;
+    padding: 0 10px;
+}
+.calc button {
+    background-color: rgb(21, 216, 21);
+    margin-left: 20px;
+}
+.result {
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+}
+.result .text, #result {
+    border: solid 1px rgb(41, 41, 41);
+    min-height: 25px;
+    padding: 5px 5px 0 5px;
+    border-radius: 3px;
+}
+.result .text {
+    margin-right: 20px;
+    background-color:rgb(235, 250, 151)
+}
+.result #result {
+    width: 320px;
+    font-size: 16px;
+}
+
+.test h2 {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.test button {
+    display: block;
+    background-color: rgb(226, 87, 87);
+    margin: 0 auto;
+}
+.test #test {
+    margin: 15px;
+    padding: 10px;
+    max-width: 90%;
+    min-height: 100px;
+    border: solid 1px rgb(110, 110, 110);
+    border-radius: 5px;
+    font-size: 14px;
+}
